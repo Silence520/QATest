@@ -1,0 +1,25 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "testview": "mocha  --reporter mochawesome",
+    "coverage": "istanbul cover _mocha -- -R spec --timeout 5000 --recursive",
+    "coverage:check": "istanbul check-coverage"
+  },
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-istanbul": "^0.12.2",
+    "babel-plugin-istanbul": "^4.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^4.0.1",
+    "mochawesome": "^2.3.1"
+  }
+}
